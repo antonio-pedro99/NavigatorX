@@ -1,8 +1,14 @@
 package com.antoniopedro99.navigatorx;
 
-import javafx.scene.layout.AnchorPane;
-
 public interface Navigable {
-    void goTo(AnchorPane node);
+
+    /*Define all the behaviour of the navigation.
+    *
+    *
+    * */
+
+    void goTo(Page page);
     void goBack();
+
+    void goToAndDontComeBack(Page page);
 }
