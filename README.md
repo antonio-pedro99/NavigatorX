@@ -1,3 +1,3 @@
 # NavigatorX
 
-A simple JavaFx plugin to help you navigate among different screens.
+A simple JavaFx library to help you navigate among different screens.
